@@ -1,7 +1,6 @@
 
 
 <p align="center">
-  <img src="./cover.jpg"/>
   <br><strong>HelloDjango-blog-tutorial</strong><br>
   <strong>完全免费、开源的 HelloDjango 系列教程之博客开发</strong>。<br>
   基于 django 2.2，带你从零开始一步步创建属于自己的博客网站。
