@@ -8,25 +8,6 @@
 </p>
 
 
-<p align="center">
-  <a href="https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/logo/weixin.png"><img src="https://img.shields.io/badge/Talk-%E5%BE%AE%E4%BF%A1%E7%BE%A4-brightgreen.svg?style=popout-square" alt="WeiXin"></a>
-  <a href="https://github.com/HelloGitHub-Team/HelloDjango-blog-tutorial/stargazers"><img src="https://img.shields.io/github/stars/HelloGitHub-Team/HelloDjango-blog-tutorial.svg?style=popout-square" alt="GitHub stars"></a>
-  <a href="https://weibo.com/hellogithub"><img src="https://img.shields.io/badge/%E6%96%B0%E6%B5%AA-Weibo-red.svg?style=popout-square" alt="Sina Weibo"></a>
-</p>
-
-**特别说明**：本项目不仅仅是教程用的演示项目！我们的目标是开发一个功能完善、测试充分、可用于生产环境的开源博客系统。和其他开源博客系统不同点在于，我们以教程的形式详细记录项目从 0 到 1 的开发过程。
-
-## 分支说明
-
-master 分支为项目的主分支，每一步关键功能的开发都对应一篇详细的教程，并和历史提交以及标签一一对应。例如第一篇教程对应第一个 commit，对应标签为 step1，依次类推。
-
-## 资源列表
-
-- [成品在线预览](https://hellodjango-blog-tutorial-demo.zmrenwu.com/)
-- 教程首发 HelloGitHub 微信公众号和 [追梦人物的博客](https://www.zmrenwu.com/)，在线学习地址：[HelloDjango - Django博客教程（第二版）](https://zmrenwu.com/courses/hellodjango-blog-tutorial/)
-- 项目 [源码仓库](https://github.com/HelloGitHub-Team/HelloDjango-blog-tutorial)
-- 项目 [前端模板源码仓库](https://github.com/zmrenwu/django-blog-tutorial-templates)
-
 ## 本地运行
 
 可以使用 Virtualenv、Pipenv、Docker 等在本地运行项目，每种方式都只需运行简单的几条命令就可以了。
@@ -246,66 +227,6 @@ $ git clone https://github.com/HelloGitHub-Team/HelloDjango-blog-tutorial.git
 
 8. 浏览器访问域名或者服务器 ip 即可进入博客首页
 
-## 教程目录索引
-
-**基础篇**
-
-1. [开始进入 django 开发之旅](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/59/)
-2. ["空空如也"的博客应用](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/60/)
-3. [创建 Django 博客的数据库模型](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/61/)
-4. [Django 迁移、操作数据库](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/62/)
-5. [Django 的接客之道](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/63/)
-6. [博客从“裸奔”到“有皮肤”](https://www.zmrenwu.com/courseqs/hellodjango-blog-tutorial/materials/64/)
-7. [创作后台开启，请开始你的表演](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/65/)
-8. [开发博客文章详情页](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/66/)
-9. [让博客支持 Markdown 语法和代码高亮](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/67/)
-10. [Markdown 文章自动生成目录，提升阅读体验](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/68/)
-11. [自动生成文章摘要](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/69/)
-12. [页面侧边栏：使用自定义模板标签](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/70/)
-13. [分类、归档和标签页](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/71/)
-14. [交流的桥梁：评论功能](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/72/)
-15. [优化博客功能细节，提升使用体验](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/73/)
-
-**部署篇**
-
-16. [Nginx+Gunicorn+Supervisor 部署 Django 博客应用](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/74/)
-17. [使用 Fabric 自动化部署](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/75/)
-18. [使用 Certbot 向 Let's Encrypt 免费申请 HTTPS 证书](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/76/)
-19. [使用 Docker 让部署 Django 项目更加轻松](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/77/)
-
-**进阶篇**
-
-20. [开发博客文章阅读量统计功能](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/78/)
-21. [Django 官方推荐的姿势：类视图](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/79/)
-22. [在脚本中使用 ORM：Faker 批量生成测试数据](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/80/)
-23. [通过 Django Pagination 实现简单分页](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/81/)
-24. [稳定易用的 Django 分页库，完善分页功能](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/82/)
-25. [统计各个分类和标签下的文章数](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/83/)
-26. [开启 Django 博客的 RSS 功能](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/84/)
-27. [Django 博客实现简单的全文搜索](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/85/)
-28. [Django Haystack 全文检索与关键词高亮](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/86/)
-
-**测试篇**
-
-29. [单元测试：测试 blog 应用](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/87/)
-30. [单元测试：测试评论应用](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/88/)
-31. [Coverage.py 统计测试覆盖率](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/89/)
-
-## 继续学习
-有了以上的 django 基础，让我继续学习 [django REST framework 教程](https://www.zmrenwu.com/courses/django-rest-framework-tutorial/)
-
-## 公众号
-<p align="center">
-  <img src="https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/logo/weixin.png" style="max-width:70%;"><br>
-欢迎关注 HelloGitHub 公众号，获取更多开源项目的资料和内容。
-</p>
-
-
-## QQ 群
-
-加入 QQ 群和更多的 django 开发者进行交流：
-
-Django学习小组主群：696899473
 
 ## 版权声明
 
